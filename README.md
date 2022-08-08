@@ -4,12 +4,12 @@
 playbook.yml - install jq-pack
 
 
-### запуск ансибла 
+### run ansible
 
 ``` /home/evil# ansible-playbook playbook.yml```
 
 
-### вывод ансибла 
+### ansible's result
 
 ```[WARNING]: provided hosts list is empty, only localhost is available. Note that
 
