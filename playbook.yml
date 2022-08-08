@@ -1,2 +1,8 @@
 ---
--
+- name: Demo2
+  hosts: localhost
+  tasks:
+  -name: Install JQ
+   ansible.builtin.package:
+     name: jq
+     state: present
